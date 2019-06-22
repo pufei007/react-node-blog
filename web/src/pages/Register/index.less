@@ -1,0 +1,183 @@
+.main {
+  background-color: #edf1f5;
+
+  width: 100%;
+  height: 100%;
+  .bg {
+    position: relative;
+    background-color: #fff;
+    width: 35rem;
+    height: 27rem;
+    margin: 0 auto;
+    // margin-top: 5rem !important;
+    z-index: 20;
+    .bigCircle {
+      position: absolute;
+      right: -40px;
+      top: -40px;
+      z-index: 10;
+    }
+    .smallCircle {
+      position: absolute;
+      right: -30px;
+      bottom: 50px;
+      z-index: 10;
+    }
+    .cloud {
+      position: absolute;
+      left: -200px;
+      bottom: 20px;
+      z-index: 10;
+    }
+    .person {
+      position: absolute;
+      left: -10px;
+      bottom: 0px;
+      z-index: 50;
+    }
+    .box {
+      position: absolute;
+      left: -3px;
+      bottom: 25px;
+      z-index: 49;
+    }
+    .tree {
+      position: absolute;
+      left: -80px;
+      bottom: 20px;
+      z-index: 10;
+    }
+    .success {
+      position: absolute;
+      padding-top: 5rem;
+      z-index: 30;
+      background-color: #fff;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0px 3px 7px 0px rgba(163, 163, 163, 0.35);
+      border-radius: 8px;
+    }
+    .register {
+      position: absolute;
+      z-index: 30;
+
+      background-color: #fff;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0px 3px 7px 0px rgba(163, 163, 163, 0.35);
+      border-radius: 8px;
+
+      .title {
+        text-align: center;
+        height: 8rem;
+        line-height: 8rem;
+        font-size: 1rem;
+        color: #f0534e;
+      }
+      :global(.ant-form label) {
+        font-size: 0.6rem;
+      }
+      :global(.ant-input) {
+        font-size: 0.6rem;
+      }
+      :global(.ant-form-explain) {
+        height: 1.3rem;
+        line-height: 1.3rem;
+        font-size: 0.6rem;
+      }
+      :global(.ant-form-item) {
+        margin-bottom: 35px;
+      }
+      :global(.ant-form-item-with-help) {
+        margin-bottom: 1px;
+      }
+      .veriImg {
+        float: left;
+        margin-top: 3px;
+        width: 3.6rem;
+        height: 1.6rem;
+        background-repeat: no-repeat;
+        cursor: pointer;
+      }
+      .checkNext {
+        float: right;
+      }
+    }
+  }
+}
+
+.header {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  width: 100%;
+  background: rgba(26, 30, 33, 1);
+  .headerLeft {
+    position: relative;
+    float: left;
+    font-size: 1rem;
+    color: #fff;
+    text-align: left;
+    padding-left: 1.7rem;
+    img {
+      position: absolute;
+      top: 0.55rem;
+      left: 0px;
+      width: 1.1rem;
+      height: 1.4rem;
+    }
+  }
+  .headerRight {
+    float: right;
+    color: #ccc;
+    font-size: 0.7rem;
+    ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+      li {
+        float: left;
+        margin-left: 1.4rem;
+        cursor: pointer;
+        a {
+          color: #ccc;
+        }
+      }
+      li:hover {
+        color: #ddd;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1920px) {
+  .bg {
+    margin-top: 5rem !important;
+  }
+  .header {
+    padding: 0 400px;
+  }
+}
+@media screen and (max-width: 1920px) {
+  .bg {
+    margin-top: 5rem !important;
+  }
+  .header {
+    padding: 0 330px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .bg {
+    margin-top: 5rem !important;
+  }
+  .header {
+    padding: 0 230px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  .bg {
+    margin-top: 2rem !important;
+  }
+  .header {
+    padding: 0 140px;
+  }
+}

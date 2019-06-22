@@ -1,0 +1,2 @@
+::ffff:127.0.0.1 - - [07/Jun/2019:05:29:24 +0000] "GET /api/blog/list?isadmin=1 HTTP/1.0" 200 468 "http://127.0.0.1:9898/admin.html" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
+::ffff:127.0.0.1 - - [07/Jun/2019:05:29:57 +0000] "GET /api/blog/detail?id=2 HTTP/1.0" 200 163 "http://127.0.0.1:9898/detail.html?id=2" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"

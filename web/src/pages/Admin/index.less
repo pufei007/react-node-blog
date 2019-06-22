@@ -1,0 +1,49 @@
+.main {
+  padding: 1rem 0px 0px 0px;
+  min-height: calc(100vh - 153px);
+}
+
+.list {
+  margin-top: 20px;
+  font-size: .8rem;
+
+  ul {
+    list-style: none;
+    padding: 6px;
+    margin: 0px;
+    border: 1px solid #aaa;
+
+    li {
+      padding-bottom: 6px;
+      padding-top: 6px;
+      margin: 0px;
+      overflow: hidden;
+      border-bottom: 1px solid #aaa;
+
+      .title {
+        width: calc(100% - 200px);
+        float: left;
+        line-height: 32px;
+      }
+
+      .btn {
+        float: right;
+
+        :global(.ant-btn) {
+          font-size: .7rem;
+          margin-left: 10px;
+        }
+      }
+    }
+
+    li:last-child {
+      border: 0px;
+    }
+  }
+}
+
+.noData {
+  text-align: center;
+  font-size: .8rem;
+  margin-top: 1rem;
+}
