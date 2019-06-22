@@ -1,7 +1,7 @@
 # 简写博客平台
 简写博客平台是基于koa2和react前后端分离的轻量级博客平台
 ### 技术栈
-##### 后台服务
+##### 后台
 - node.js
 - koa2
 - mysql
@@ -13,7 +13,7 @@
 - umi
 - dva
 - antd
-### 如何用？
+### 启用
 ##### 开启后台服务
 ```javascript
 git clone https://github.com/pufei007/react-node-blog.git
@@ -32,6 +32,6 @@ cd web
 yarn install
 yarn start
 ```
-### 测试运行
+### DEMO
 <http://www.pufei.me:8001>
 ### 反馈
