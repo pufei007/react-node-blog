@@ -14,7 +14,7 @@
 - dva
 - antd
 ### 如何用？
-#### 开启后台服务
+##### 开启后台服务
 ```javascript
 git clone https://github.com/pufei007/react-node-blog.git
 cd react-node-blog
@@ -24,7 +24,7 @@ yarn dev
 > 配置MySQL，根目录db文件下有sql。
 > 配置Redis，默认配置。
 
-#### 开启后台服务
+##### 开启前端服务
 ```javascript
 git clone https://github.com/pufei007/react-node-blog.git
 cd react-node-blog
