@@ -21,6 +21,7 @@ cd react-node-blog
 yarn install
 yarn dev
 ```
+> 运行8000端口。
 > 配置MySQL，根目录db文件下有sql。
 > 配置Redis，默认配置。
 
@@ -32,6 +33,7 @@ cd web
 yarn install
 yarn start
 ```
+> 运行8001端口。
 ### DEMO
 <http://www.pufei.me:8001>
 账号：guest
