@@ -34,4 +34,6 @@ yarn start
 ```
 ### DEMO
 <http://www.pufei.me:8001>
+账号：guest
+密码：123456
 ### 反馈
