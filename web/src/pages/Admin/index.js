@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
     this.state = {};
   }
   componentDidMount() {
-    console.log(this.props.location);
+    // console.log(this.props.location);
     this.props.dispatch({
       type: 'Admin/Init',
       payload: {
@@ -21,7 +21,7 @@ class IndexPage extends React.Component {
     });
   }
   edit = data => {
-    console.log(data);
+    // console.log(data);
     router.push({
       pathname: '/New',
       params: {
@@ -61,7 +61,7 @@ class IndexPage extends React.Component {
     });
   };
   render() {
-    console.log(this.props.list);
+    // console.log(this.props.list);
     return (
       <div className={styles.main}>
         <div>个人文章管理</div>

@@ -145,7 +145,7 @@ class IndexPage extends React.Component {
                         style={{ width: '15rem' }}
                         className={styles.infoInput}
                         value={this.state.userName}
-                        placeholder="账号"
+                        placeholder="账号(guest)"
                         onBlur={this.inputOnBlur.bind(this, 'user')}
                         onFocus={this.inputOnFocus.bind(this, 'user')}
                         onChange={this.handleChange('userName')}
@@ -171,7 +171,7 @@ class IndexPage extends React.Component {
                         className={styles.infoInput}
                         value={this.state.password}
                         type="password"
-                        placeholder="密码"
+                        placeholder="密码(123456)"
                         onBlur={this.inputOnBlur.bind(this, 'pwd')}
                         onFocus={this.inputOnFocus.bind(this, 'pwd')}
                         onChange={this.handleChange('password')}

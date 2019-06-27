@@ -28,7 +28,7 @@ class IndexPage extends React.Component {
     // }
   }
   toCheckDetail = data => {
-    console.log(data);
+    // console.log(data);
     router.push({
       pathname: '/Detail',
       params: {

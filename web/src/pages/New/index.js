@@ -13,7 +13,7 @@ import router from 'umi/router';
 class IndexPage extends React.Component {
   constructor(props) {
     super(props);
-    console.log(this.props);
+    // console.log(this.props);
     this.state = {
       title: this.props.location.params ? this.props.location.params.data.title : '',
       editorHtml: this.props.location.params ? this.props.location.params.data.content : '',
@@ -24,8 +24,8 @@ class IndexPage extends React.Component {
   componentDidMount() {
     var editor = new wangEditor(ReactDOM.findDOMNode(this._div));
     editor.customConfig.onchange = html => {
-      console.log(html);
-      console.log(editor.txt.text());
+      // console.log(html);
+      // console.log(editor.txt.text());
       this.setState({
         editorHtml: html,
         editorText: editor.txt.text(),

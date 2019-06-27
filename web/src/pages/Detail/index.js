@@ -11,7 +11,7 @@ class IndexPage extends React.Component {
     this.state = {};
   }
   componentDidMount() {
-    console.log(this.props.location);
+    // console.log(this.props.location);
     this.props.dispatch({
       type: 'Detail/Init',
       payload: {
