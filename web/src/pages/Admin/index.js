@@ -4,7 +4,7 @@ import router from 'umi/router';
 import withRouter from 'umi/withRouter';
 import { connect } from 'dva';
 import { modal } from '../../framework/common';
-import { Icon, Button } from 'antd';
+import { Button } from 'antd';
 
 class IndexPage extends React.Component {
   constructor(props) {

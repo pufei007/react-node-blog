@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'dva';
-import { Form, Input, Button, Checkbox, Layout } from 'antd';
+import { Form, Input, Button, } from 'antd';
 import { common } from '~/framework';
 import styles from './index.less';
 import router from 'umi/router';
@@ -10,7 +10,7 @@ import { Helmet } from 'react-helmet';
 import config from '../../utils/config';
 const { utils } = common;
 const FormItem = Form.Item;
-const { Header, Footer, Sider, Content } = Layout;
+// const { Header, Footer, Sider, Content } = Layout;
 var bg = {
   backgroundImage: 'url(' + homebackground + ')',
 };

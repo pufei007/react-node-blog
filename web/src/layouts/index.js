@@ -7,7 +7,7 @@ import styles from './index.less';
 import { Bootstrap } from '../framework';
 export default withRouter(
   connect(({ loading ,Global}) => {
-    console.log(Global);
+    // console.log(Global);
     return { loading,Global };
   })(function({ loading,Global, location, children }) {
     return (
@@ -43,7 +43,7 @@ export default withRouter(
                       </li>
                       <li onClick={out} title='推出'>退出</li>
                       <li style={{marginRight:'1rem'}} title='个人中心' onClick={admin}>{Global.realname}</li>
-                      <li title="写文章" title='写文章'>
+                      <li title="写文章">
                         <Button
                           type="primary"
                           shape="round"
